@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Tests\\Unit\\ExampleTest::test_that_true_is_true":0.866,"Tests\\Feature\\ExampleTest::test_the_application_returns_a_successful_response":10.147,"Tests\\Feature\\ExampleTest::test_site_pages_render_without_database_access":0.658,"Tests\\Feature\\ExampleTest::test_subscription_validates_email_without_persisting_it":2.692}}
