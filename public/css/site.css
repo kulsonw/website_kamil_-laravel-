@@ -1,0 +1,108 @@
+/* ===== BASE ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3e9e9;
+    color: #333;
+}
+
+/* ===== HEADINGS ===== */
+h1 { color: #1e293b; }
+h2 { color: #2563eb; border-bottom: 2px solid #dbeafe; padding-bottom: 6px; }
+h3 { color: #1e293b; }
+
+/* ===== STATS CARDS ===== */
+.num {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2563eb;
+    display: block;
+}
+.lbl {
+    font-size: 14px;
+    color: #64748b;
+}
+
+/* ===== NEWS PAGE ===== */
+.tag {
+    background: #dbeafe;
+    color: #2563eb;
+    padding: 3px 12px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.news-featured-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* ===== PORTFOLIO PAGE ===== */
+.proj-icon { font-size: 32px; display: block; margin-bottom: 8px; }
+.proj-tag {
+    display: inline-block;
+    background: #dbeafe;
+    color: #2563eb;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+/* ===== CV PAGE ===== */
+.cv-sidebar {
+    background: #1e293b;
+    color: #e2e8f0;
+}
+.cv-sidebar h3 {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.cv-sidebar ul {
+    padding-left: 18px;
+    font-size: 14px;
+}
+.cv-sidebar li {
+    margin-bottom: 6px;
+}
+
+.section-title {
+    color: #2563eb;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #dbeafe;
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #64748b;
+    font-size: 14px;
+    border-top: 1px solid #e2e8f0;
+    margin-top: 30px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .cv-sidebar {
+        border-radius: 8px 8px 0 0;
+    }
+    .proj-icon {
+        text-align: center;
+    }
+}
+
